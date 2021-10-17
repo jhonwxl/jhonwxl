@@ -22,7 +22,7 @@
     new Vue({
         el:"#app",
         data:{
-            "msg":"网页测试",
+            "msg":"网页测试6",
             "dataTest":""
         },
         methods:{
@@ -33,7 +33,7 @@
                 // axios.post("192.168.40.83/web/demo",params).Then(resp->{
                 //     console.log(resp)
                 // })
-                axios.post("http://192.168.40.83/web/demo",params).Then(resp=>{
+                axios.post("http://192.168.40.83:8080/web/demo",params).Then(resp=>{
                     console.log(resp)
                 })
 
